@@ -5,6 +5,7 @@ services:
   nestapp:
     container_name: your_app
     image: your_app:1.0.0
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
